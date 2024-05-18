@@ -1,0 +1,22 @@
+.messages {
+    clear: both;
+    padding: 10px;
+    height: auto;
+    overflow-y: auto;
+  }
+  
+  .message {
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color: #007BFF;
+    color: white;
+    width: fit-content;
+    max-width: 90%;
+  }
+  
+  .message.user {
+    background-color: #e0e0e0;
+    color: black;
+    margin-left: auto;
+  }
